@@ -34,14 +34,14 @@
 
     <section id="contact">
         <h2>Contact</h2>
-        <?php
+        <p>If you'd like to get in touch with Mibris for collaborations, or any inquiries, please use the contact form below:</p>
+          <?php
         if (isset($_GET['message']) && $_GET['message'] === 'success') {
             echo '<p class="success-message">Your message has been sent successfully!</p>';
         } elseif (isset($_GET['message']) && $_GET['message'] === 'error') {
             echo '<p class="error-message">There was an error sending your message. Please try again later.</p>';
         }
         ?>
-        <p>If you'd like to get in touch with Mibris for collaborations, or any inquiries, please use the contact form below:</p>
         <form action="contact.php" method="POST">
             <label for="name">Name:</label>
             <input type="text" id="name" name="name" required>
