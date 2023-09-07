@@ -29,6 +29,13 @@ nav a {
     color: #fff;
 }
 
+.collapsible-section {
+    display: none;
+    padding: 40px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+}
+
 section {
     padding: 40px;
 }
