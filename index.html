@@ -88,19 +88,15 @@
     <script>
     // Get all buttons with the class "toggle-button"
 const toggleButtons = document.querySelectorAll('.toggle-button');
-
+const collapsibleSection = document.getElementById('collapsibleSection');
 // Add click event listeners to each button
-toggleButtons.forEach(button => {
-    button.addEventListener('click', function () {
-        const targetId = this.getAttribute('data-target');
-        const targetSection = document.getElementById(targetId);
-
-        if (targetSection.style.maxHeight) {
-            targetSection.style.maxHeight = null;
-        } else {
-            targetSection.style.maxHeight = targetSection.scrollHeight + 'px';
-        }
-    });
+toggleButton.addEventListener('click', function () {
+    // Toggle the display property of the collapsible section
+    if (collapsibleSection.style.display === 'none' || collapsibleSection.style.display === '') {
+        collapsibleSection.style.display = 'block';
+    } else {
+        collapsibleSection.style.display = 'none';
+    }
 });
     </script>
 </body>
