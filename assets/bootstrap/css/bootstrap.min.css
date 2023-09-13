@@ -1,3 +1,22 @@
+@font-face {
+  font-family: 'hypik';
+  src: url('/fonts/hypik.eot');
+  src: url('/fonts/hypik.woff2') format('woff2'),
+       url('/fonts/hypik.woff') format('woff'),
+       url('/fonts/hypik.ttf') format('truetype'),
+       url('/fonts/hypik.svg#hypik') format('svg'),
+       url('/fonts/hypik.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+color: white;
+}
+h1 {
+font-size: 21px;
+font-family: customFont;
+}
+
 @import url(https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic);
 @import url(https://fonts.googleapis.com/css?family=Cabin:700);
 /*!
