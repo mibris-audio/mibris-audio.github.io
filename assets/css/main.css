@@ -1,0 +1,35 @@
+@font-face {
+  font-family: 'hypik';
+  src:url('hypik.woff') format('woff'),
+        url('hypik.woff2') format('woff2'),
+        url('hypik.eot'),
+        url('hypik.eot?#iefix') format('embedded-opentype'),
+        url('hypik.otf') format('truetype');
+
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+  .mibfont{
+    font-family: "hypik";
+    letter-spacing:10px;
+    background-image: url("../img/intro-bg.png");
+    background-clip: text;
+    background-size: cover;
+    -webkit-background-clip: text;
+  
+  }
+  
+  .mibfont-logo{
+    font-family: "hypik";
+    letter-spacing:8px;
+    font-size: x-large;
+    color:black;
+
+  }
+  .opacitybox{
+    background-color: #000;
+   
+    opacity: .7;
+  }
