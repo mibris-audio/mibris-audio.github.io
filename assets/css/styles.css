@@ -1,10 +1,10 @@
 @font-face {
     font-family: 'hypik';
-    src:url('/fonts/hypik.woff') format('woff'),
-        url('/fonts/hypik.woff2') format('woff2'),
-        url('/fonts/hypik.eot'),
-        url('/fonts/hypik.eot?#iefix') format('embedded-opentype'),
-        url('/fonts/hypik.otf') format('truetype');
+    src:url('assets/fonts/hypik.woff') format('woff'),
+        url('assets/fonts/hypik.woff2') format('woff2'),
+        url('assets/fonts/hypik.eot'),
+        url('assets/fonts/hypik.eot?#iefix') format('embedded-opentype'),
+        url('assets/fonts/hypik.otf') format('truetype');
 
     font-weight: normal;
     font-style: normal;
