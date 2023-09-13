@@ -1,7 +1,7 @@
 @font-face {
-  font-family: 'hypik';
+  font-family: 'Hypik';
   src: url('/fonts/hypik.eot');
-  src: url('/fonts/hypik.woff2') format('woff2'),
+       url('/fonts/hypik.woff2') format('woff2'),
        url('/fonts/hypik.woff') format('woff'),
        url('/fonts/hypik.ttf') format('truetype'),
        url('/fonts/hypik.svg#hypik') format('svg'),
@@ -14,7 +14,7 @@ color: white;
 }
 h1 {
 font-size: 21px;
-font-family: hypik;
+font-family: 'Hypik';
 }
 
 @import url(https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic);
