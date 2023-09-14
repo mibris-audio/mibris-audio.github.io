@@ -13,6 +13,8 @@
 
   .mibfont{
     font-family: "hypik";
+    text-transform: lowercase;
+    text-transform: capitalize;
     letter-spacing:10px;
     background-image: url("../img/intro-bg.png");
     background-clip: text;
