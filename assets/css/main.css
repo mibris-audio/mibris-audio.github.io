@@ -25,6 +25,8 @@
   
   .mibfont-logo{
     font-family: "hypik";
+    text-transform: lowercase;
+    text-transform: capitalize;
     letter-spacing:8px;
     font-size: x-large;
     color:black;
