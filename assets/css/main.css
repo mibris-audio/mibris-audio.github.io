@@ -1,18 +1,19 @@
 @font-face {
-  font-family: 'hypik';
-  src:url('hypik.woff') format('woff'),
-        url('hypik.woff2') format('woff2'),
-        url('hypik.eot'),
-        url('hypik.eot?#iefix') format('embedded-opentype'),
-        url('hypik.otf') format('truetype');
+    font-family: 'Quote';
+    src:url('Quote.woff') format('woff'),
+        url('Quote.woff2') format('woff2'),
+        url('Quote.svg#Quote') format('svg'),
+        url('Quote.eot'),
+        url('Quote.eot?#iefix') format('embedded-opentype'),
+        url('Quote.ttf') format('truetype');
 
-  font-weight: 100;
-  font-style: normal;
-  font-display: swap;
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
 }
 
   .mibfont{
-    font-family: "hypik";
+    font-family: "Quote";
     text-transform: lowercase;
     text-transform: capitalize;
     letter-spacing:10px;
@@ -24,7 +25,7 @@
   }
   
   .mibfont-logo{
-    font-family: "hypik";
+    font-family: "Quote";
     text-transform: lowercase;
     text-transform: capitalize;
     letter-spacing:8px;
