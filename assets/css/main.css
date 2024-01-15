@@ -35,6 +35,6 @@
     background-color: #000;
     box-sizing: border-box;
     object-fit: fill;
-    background-size: cover;
+    background-size: fill;
     opacity: .7;
   }
