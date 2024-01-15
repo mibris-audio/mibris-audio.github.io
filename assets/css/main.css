@@ -31,12 +31,7 @@
     color:black;
 
   }
-  #headerbg{
-      background-image: url('../img/intro-bg.jpg');
-      height: 100%;
-      width: 100%;
-  }
-
+ 
   .opacitybox{
     background-color: #000;
     box-sizing: border-box;
