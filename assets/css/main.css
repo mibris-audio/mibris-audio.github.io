@@ -33,8 +33,7 @@
   }
   #headerbg{
       background-image: url('../img/intro-bg.jpg');
-      background-size: cover;
-      background-position: center;
+      height: auto;
   }
 
   .opacitybox{
