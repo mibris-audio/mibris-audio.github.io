@@ -33,7 +33,7 @@
   }
   .opacitybox{
     background-color: #000;
-    height: 1400px;
-   
+    box-sizing: border-box;
+    object-fit: fill;
     opacity: .7;
   }
