@@ -31,6 +31,11 @@
     color:black;
 
   }
+  .header{
+      background-image: url('../img/intro-bg.jpg');
+      background-size: cover;
+      background-position: center;
+  }
   .opacitybox{
     background-color: #000;
     box-sizing: border-box;
