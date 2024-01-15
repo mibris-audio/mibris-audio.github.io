@@ -16,7 +16,6 @@
     font-family: "Quote";
     text-transform: lowercase;
     text-transform: capitalize;
-    letter-spacing:10px;
     background-image: url("../img/intro-bg.png");
     background-clip: text;
     background-size: cover;
@@ -28,7 +27,6 @@
     font-family: "Quote";
     text-transform: lowercase;
     text-transform: capitalize;
-    letter-spacing:8px;
     font-size: x-large;
     color:black;
 
