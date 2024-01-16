@@ -16,7 +16,6 @@
     font-family: "Quote";
     text-transform: lowercase;
     text-transform: capitalize;
-    background-image: url("../img/intro-bg.jpg");
     color: #fff;
     -webkit-background-clip: text;
   
@@ -33,11 +32,9 @@
   
   .mibfont-title{
     font-family: "Quote";
-    text-transform: lowercase;
-    text-transform: capitalize;
     font-size: large;
     color: #fff;
-    mix-blend-mode: multiply;
+    -webkit-background-clip: text;
 
   }
 
