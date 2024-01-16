@@ -39,6 +39,7 @@
     text-transform: capitalize;
     font-size: x-large;
     color: #fff;
+    mix-blend-mode: multiply;
 
   }
 
