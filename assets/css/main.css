@@ -19,7 +19,10 @@
     background-image: url("../img/intro-bg.jpg");
     background-clip: text;
     background-size: cover;
+    color: #fff;
+    -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
+    -moz-background-clip:text;
   
   }
   
