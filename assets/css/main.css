@@ -16,7 +16,7 @@
     font-family: "Quote";
     text-transform: lowercase;
     text-transform: capitalize;
-    background-image: url("../img/intro-bg.png");
+    background-image: url("../img/intro-bg.jpg");
     background-clip: text;
     background-size: cover;
     -webkit-background-clip: text;
