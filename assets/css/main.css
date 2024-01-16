@@ -16,7 +16,7 @@
     font-family: "Quote";
     text-transform: lowercase;
     text-transform: capitalize;
-    background-image: url("../img/intro-bg.jpg");
+    background-image: url("../img/intro-bg.");
     background-clip: text;
     background-size: cover;
     color: #fff;
@@ -34,7 +34,18 @@
     color:black;
 
   }
- 
+
+  }
+  
+  .mibfont-title{
+    font-family: "Quote";
+    text-transform: lowercase;
+    text-transform: capitalize;
+    font-size: x-large;
+    color: #fff;
+
+  }
+
   .opacitybox{
     background-color: #000;
     box-sizing: border-box;
