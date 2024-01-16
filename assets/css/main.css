@@ -16,9 +16,9 @@
     font-family: "Quote";
     text-transform: lowercase;
     text-transform: capitalize;
-    background-image: url("../img/intro-bg.");
+    background-image: url("../img/intro-bg.jpg");
     color: #fff;
-    mix-blend-mode: multiply;
+    -webkit-background-clip: text;
   
   }
   
