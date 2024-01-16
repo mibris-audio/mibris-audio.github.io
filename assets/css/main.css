@@ -17,12 +17,8 @@
     text-transform: lowercase;
     text-transform: capitalize;
     background-image: url("../img/intro-bg.");
-    background-clip: text;
-    background-size: cover;
     color: #fff;
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
-    -moz-background-clip:text;
+    mix-blend-mode: multiply;
   
   }
   
