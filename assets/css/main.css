@@ -30,16 +30,21 @@
     color:black;
 
   }
-
-  }
   
   .mibfont-title{
     font-family: "Quote";
     text-transform: lowercase;
     text-transform: capitalize;
-    font-size: x-large;
+    font-size: large;
     color: #fff;
     mix-blend-mode: multiply;
+
+  }
+
+.mibfont-standard{
+    font-family: "Quote";
+    font-size: small;
+    color: #fff;
 
   }
 
